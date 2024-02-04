@@ -1,1 +1,2 @@
-# MCMC
+# Global Regression
+In this project, the main goal is to propose a model to predict the shear wave velocitty profile in different locations of Bay Area region. The main input of the model is Vs30 at each specific location. The proposed model shows a great performance up the approximate depth of 200 m witha avery small bias in the residual values. In order to perform Markov Chain Monte Carlo method, STAN is used and implemented in the main code. There is another python code used for visualization of plots called countour_plots.py.
